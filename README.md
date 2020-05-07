@@ -1,4 +1,4 @@
-# Border Radius Previewer
+# Christmas Lights
 
 Start/Stop, mude a velocidade de animação e mais acerca das Christmas Lights!
 
