@@ -1,6 +1,6 @@
 var circ = document.getElementsByClassName("circle");
-setLights(0);
-setTimeout(function() { setLights(1); }, 600)
+setLights(0);   //inicia o pisca pisca
+setTimeout(function() { setLights(1); }, 600)   // inicia o pisca pisca
 
 
 function startStop() {
@@ -37,5 +37,18 @@ function setDuration() {
 }
 
 function generateLights() {
+    var lContainer = document.getElementById("lightsContainer")
+    var qtLights = document.getElementById("inpQtLights").value
+    lContainer.innerHTML=""
+    for(i=0; i<qtLights; i++) {
+        var circ = document.createElement("div")
+        circ.setAttribute("class", "circle")
+        lContainer.append(circ)
+    }
+    setLights(0);   // inicia o pisca pisca
+    setTimeout(function() { setLights(1); }, 600) // inicia o pisca pisca
+}
+
+function setColor() {
     
 }

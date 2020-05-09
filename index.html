@@ -11,7 +11,7 @@
         <h1>Christmas Lights</h1>
     </header>
 
-    <section>
+    <section id="lightsContainer">
         <div class="circle">
         </div>
         <div class="circle">
@@ -35,8 +35,12 @@
 
     <div class="parameters">
         <p><h2>Lights customization</h2></p>
-        <p>Number of lights: <input type="text" name="" id="" size="1"> <input type="button" value="Generate"></p>
+        <p>
+            Number of lights: <input type="text" name="" id="inpQtLights" size="1"> 
+            <input type="button" value="Generate" onclick="generateLights()">
+        </p>
         <input type="color" name="" id="">
+        <input type="button" value="Set" onclick="setColor()">
     </div>
 
     <footer>&copy;Giancarlo Cavalli</footer>
