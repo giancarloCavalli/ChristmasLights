@@ -22,3 +22,7 @@
 .parameters {
     padding: 8px;
 }
+
+ul#lightsCheckList li {
+    display: inline-block;
+}

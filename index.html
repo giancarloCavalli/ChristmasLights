@@ -12,20 +12,6 @@
     </header>
 
     <section id="lightsContainer">
-        <div class="circle">
-        </div>
-        <div class="circle">
-        </div>
-        <div class="circle">
-        </div>
-        <div class="circle">
-        </div>
-        <div class="circle">
-        </div>
-        <div class="circle">
-        </div>
-        <div class="circle">
-        </div>
     </section>
 
     <div class="parameters">
@@ -36,10 +22,13 @@
     <div class="parameters">
         <p><h2>Lights customization</h2></p>
         <p>
-            Number of lights: <input type="text" name="" id="inpQtLights" size="1"> 
+            Number of lights: <input type="text" name="" id="inpQtLights" size="1" value="7"> 
             <input type="button" value="Generate" onclick="generateLights()">
         </p>
-        <input type="color" name="" id="">
+        Seleção de luzes para alteração da cor (<strong>função ainda a ser implementada</strong>)
+        <ul id="lightsCheckList">
+        </ul>
+        <input type="color" name="" id="colorSelector">
         <input type="button" value="Set" onclick="setColor()">
     </div>
 
